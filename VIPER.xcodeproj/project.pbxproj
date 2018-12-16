@@ -35,6 +35,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D23C4BC21C6BAC0001A6B28 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8DF9293621B58F9F00F9A35B /* Main.storyboard */,
+				8DF9293B21B58FA100F9A35B /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8D23C4BD21C6BB40001A6B28 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		8D23C4BE21C6BB4F001A6B28 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		8D23C4BF21C6BB5E001A6B28 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		8D23C4C021C6BB75001A6B28 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		8D23C4C121C6BB7F001A6B28 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		8DF9292621B58F9F00F9A35B = {
 			isa = PBXGroup;
 			children = (
@@ -54,11 +98,15 @@
 		8DF9293121B58F9F00F9A35B /* VIPER */ = {
 			isa = PBXGroup;
 			children = (
+				8D23C4C121C6BB7F001A6B28 /* Protocols */,
+				8D23C4C021C6BB75001A6B28 /* Router */,
+				8D23C4BF21C6BB5E001A6B28 /* Entity */,
+				8D23C4BE21C6BB4F001A6B28 /* Presenter */,
+				8D23C4BD21C6BB40001A6B28 /* Interactor */,
+				8D23C4BC21C6BAC0001A6B28 /* View */,
 				8DF9293221B58F9F00F9A35B /* AppDelegate.swift */,
 				8DF9293421B58F9F00F9A35B /* ViewController.swift */,
-				8DF9293621B58F9F00F9A35B /* Main.storyboard */,
 				8DF9293921B58FA100F9A35B /* Assets.xcassets */,
-				8DF9293B21B58FA100F9A35B /* LaunchScreen.storyboard */,
 				8DF9293E21B58FA100F9A35B /* Info.plist */,
 			);
 			path = VIPER;
